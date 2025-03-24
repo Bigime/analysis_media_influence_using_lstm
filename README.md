@@ -13,10 +13,13 @@
 
 ## 감성수치를 넣은 LSTM 모델과 감성수치를 넣지 않은 LSTM 모델의 비교
 
-![image](https://github.com/user-attachments/assets/d31fe16b-190a-4ebf-87fe-77fbf8a7870c)
+![image](https://github.com/user-attachments/assets/ba52bfe4-5867-4117-a3e1-222afde85b5f)
+
 
 ### 1. sequence_length를 동일하게 한 뒤 서로 비교했습니다.
 ### 2. 예측성능에 있어서 차이가 없었습니다.
+![image](https://github.com/user-attachments/assets/26055c21-1c59-4188-a52b-f7f93bae7574)
+
 ---
 
 ## 보완할 점
