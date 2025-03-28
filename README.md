@@ -7,7 +7,8 @@
 
 ## 분석 단계
 
-## 뉴스 추출
+## 뉴스 
+<img src="https://github.com/user-attachments/assets/f29a0845-d5b6-40bd-acbb-fa85f7f55da8"  width="400" height="400"/>
 ![image](https://github.com/user-attachments/assets/f29a0845-d5b6-40bd-acbb-fa85f7f55da8)
 
 ### 1. 전세가격과 관련된 기사만 뽑고자 하여 LDA를 도입했습니다.
