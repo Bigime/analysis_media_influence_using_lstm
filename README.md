@@ -14,25 +14,25 @@
 ### 1. 전세가격과 관련된 기사만 뽑고자 하여 LDA를 도입했습니다.
 ### 2. 각 기사마다 토픽의 비중을 산출하고 토픽들 중 전세가격과 관련된 토픽의 비중을 가중치로 부여하여 해당 기사에 대한 감성수치를 산출했습니다.
 ### 3. 전세가격과 관련된 토픽을 뽑기 위해 기사마다 토픽별 비중 * 감성수치로 토픽별 감성수치를 만든 뒤 상관관계 행렬을 만들고 토픽모델링 결과 산출된 토픽별 단어들을 활용해 토픽을 추렸습니다.
-![image](https://github.com/user-attachments/assets/c2b15711-1b46-4571-aa5a-fea626d45210)
-
+<img src="https://github.com/user-attachments/assets/c2b15711-1b46-4571-aa5a-fea626d45210"  width="600" height="400"/>
 
 ## 감성수치를 넣은 LSTM 모델과 감성수치를 넣지 않은 LSTM 모델의 비교
 
-![image](https://github.com/user-attachments/assets/ba52bfe4-5867-4117-a3e1-222afde85b5f)
+<img src="https://github.com/user-attachments/assets/ba52bfe4-5867-4117-a3e1-222afde85b5f"  width="600" height="400"/>
 
 
 ### 1. sequence_length를 동일하게 하고 time_seris_split을 통해 훈련데이터와 테스트데이터로 분할했습니다.
-![image](https://github.com/user-attachments/assets/0ce2da62-1437-4a2c-8fc9-0a2fcff71cfb)
+
+<img src="https://github.com/user-attachments/assets/0ce2da62-1437-4a2c-8fc9-0a2fcff71cfb"  width="600" height="400"/>
 
 ### 2. 전체 예측성능에 있어서 차이가 없었습니다.
-![image](https://github.com/user-attachments/assets/26055c21-1c59-4188-a52b-f7f93bae7574)
+<img src="https://github.com/user-attachments/assets/26055c21-1c59-4188-a52b-f7f93bae7574"  width="600" height="400"/>
 
 ### 3. 하지만 구간을 나눠본 결과 fold1에서 예측성능의 차이가 크게 났습니다.
-![image](https://github.com/user-attachments/assets/dfc0944a-93bc-4e93-9a3d-4449d79c6dcd)
+<img src="https://github.com/user-attachments/assets/dfc0944a-93bc-4e93-9a3d-4449d79c6dcd"  width="600" height="400"/>
 
 ### 4. fold1에 대해서 사후분석한 결과 학습량 부족으로 인해 감성수치를 추가한 것이 예측 성능에 악영향을 끼쳤습니다.
-![image](https://github.com/user-attachments/assets/4cd2f449-11e9-41dd-aafa-469ed872d3fb)
+<img src="https://github.com/user-attachments/assets/4cd2f449-11e9-41dd-aafa-469ed872d3fb"  width="600" height="400"/>
 
 ---
 
