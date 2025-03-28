@@ -26,7 +26,7 @@
 <img src="https://github.com/user-attachments/assets/0ce2da62-1437-4a2c-8fc9-0a2fcff71cfb"  width="600" height="400"/>
 
 ### 2. 전체 예측성능에 있어서 차이가 없었습니다.
-<img src="https://github.com/user-attachments/assets/26055c21-1c59-4188-a52b-f7f93bae7574"  width="600" height="400"/>
+#### 감성수치 포함한 모델 : 0.145 vs. 감성수치 포함하지 않은 모델 : 0.135
 
 ### 3. 하지만 구간을 나눠본 결과 fold1에서 예측성능의 차이가 크게 났습니다.
 <img src="https://github.com/user-attachments/assets/dfc0944a-93bc-4e93-9a3d-4449d79c6dcd"  width="600" height="400"/>
