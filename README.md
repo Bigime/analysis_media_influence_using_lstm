@@ -8,8 +8,8 @@
 ## 분석 단계
 
 ## 뉴스 
-<img src="https://github.com/user-attachments/assets/f29a0845-d5b6-40bd-acbb-fa85f7f55da8"  width="400" height="400"/>
-![image](https://github.com/user-attachments/assets/f29a0845-d5b6-40bd-acbb-fa85f7f55da8)
+<img src="https://github.com/user-attachments/assets/f29a0845-d5b6-40bd-acbb-fa85f7f55da8"  width="600" height="400"/>
+
 
 ### 1. 전세가격과 관련된 기사만 뽑고자 하여 LDA를 도입했습니다.
 ### 2. 각 기사마다 토픽의 비중을 산출하고 토픽들 중 전세가격과 관련된 토픽의 비중을 가중치로 부여하여 해당 기사에 대한 감성수치를 산출했습니다.
